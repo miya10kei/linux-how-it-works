@@ -11,7 +11,7 @@ static void child()
 
 static void parent(pid_t pid_c)
 {
-  printf("I'm parent! my pid is %d and the pid of my child is %d/\n", getpid(), pid_c);
+  printf("I'm parent! my pid is %d and the pid of my child is %d.\n", getpid(), pid_c);
   exit(EXIT_SUCCESS);
 }
 
